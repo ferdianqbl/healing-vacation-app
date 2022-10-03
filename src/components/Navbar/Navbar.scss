@@ -1,0 +1,23 @@
+nav.navbar#my-navbar {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  padding: 1rem 0;
+
+  li.nav-item {
+    a.nav-link {
+      color: #FFF;
+
+      &.btn-started {
+        border: 1px solid #FFF;
+        border-radius: 6px;
+        padding: .75rem 1rem;
+        margin-left: 2rem;
+
+        &:hover {
+          border-color: rgba(59, 130, 246, 1);
+          background: rgba(59, 130, 246, 1);
+        }
+      }
+    }
+  }
+}

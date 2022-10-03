@@ -1,0 +1,18 @@
+nav.navbar#my-navbar {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  padding: 1rem 0;
+}
+nav.navbar#my-navbar li.nav-item a.nav-link {
+  color: #FFF;
+}
+nav.navbar#my-navbar li.nav-item a.nav-link.btn-started {
+  border: 1px solid #FFF;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-left: 2rem;
+}
+nav.navbar#my-navbar li.nav-item a.nav-link.btn-started:hover {
+  border-color: rgb(59, 130, 246);
+  background: rgb(59, 130, 246);
+}/*# sourceMappingURL=Navbar.css.map */
