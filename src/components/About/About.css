@@ -1,0 +1,17 @@
+section.about#about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: rgb(17, 24, 39);
+}
+section.about#about p.about-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #FFFFFF;
+}
+section.about#about p.about-text {
+  color: #9CA3AF;
+  line-height: 1.5rem;
+}
+section.about#about p.about-text span {
+  color: #3B82F6;
+}/*# sourceMappingURL=About.css.map */
