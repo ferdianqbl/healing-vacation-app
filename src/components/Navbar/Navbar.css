@@ -1,10 +1,12 @@
 nav.navbar#my-navbar {
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  background: rgba(107, 114, 128, 0.5);
   padding: 1rem 0;
 }
 nav.navbar#my-navbar li.nav-item a.nav-link {
   color: #FFF;
+}
+nav.navbar#my-navbar li.nav-item a.nav-link:hover {
+  color: rgb(59, 130, 246);
 }
 nav.navbar#my-navbar li.nav-item a.nav-link.btn-started {
   border: 1px solid #FFF;
@@ -13,6 +15,7 @@ nav.navbar#my-navbar li.nav-item a.nav-link.btn-started {
   margin-left: 2rem;
 }
 nav.navbar#my-navbar li.nav-item a.nav-link.btn-started:hover {
+  color: #FFF;
   border-color: rgb(59, 130, 246);
   background: rgb(59, 130, 246);
 }/*# sourceMappingURL=Navbar.css.map */

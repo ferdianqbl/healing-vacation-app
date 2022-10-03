@@ -1,11 +1,16 @@
 nav.navbar#my-navbar {
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  // -webkit-backdrop-filter: blur(8px);
+  // backdrop-filter: blur(8px);
+  background: rgba(107, 114, 128, 0.5);
   padding: 1rem 0;
 
   li.nav-item {
     a.nav-link {
       color: #FFF;
+
+      &:hover {
+        color: rgba(59, 130, 246, 1);
+      }
 
       &.btn-started {
         border: 1px solid #FFF;
@@ -14,6 +19,7 @@ nav.navbar#my-navbar {
         margin-left: 2rem;
 
         &:hover {
+          color: #FFF;
           border-color: rgba(59, 130, 246, 1);
           background: rgba(59, 130, 246, 1);
         }
