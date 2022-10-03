@@ -2,9 +2,12 @@ import React from "react";
 import Logo from "./Logo.svg";
 import "./Navbar.css";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg align-items-center" id="my-navbar">
+    <nav
+      className="navbar navbar-expand-lg align-items-center fixed-top"
+      id="my-navbar"
+    >
       <div className="container">
         <a className="navbar-brand" href="/">
           <img src={Logo} alt="Logo" />
@@ -62,6 +65,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
