@@ -1,4 +1,5 @@
 section.hero#hero {
+  overflow: hidden;
   min-height: 100vh;
   background: url(./banner.png);
   background-size: cover;
@@ -19,6 +20,14 @@ section.hero#hero {
     background: linear-gradient(90deg, rgba(17, 24, 39, 0.8) 0%, rgba(17, 24, 39, 0.4) 56.25%, rgba(17, 24, 39, 0) 100%);
   }
 
+  video#hero-video {
+    position: absolute;
+    width: calc(100% + 500px);
+    margin-top: -200px;
+    margin-left: -250px;
+    z-index: -2;
+  }
+
   h1.hero-title {
     font-weight: 700;
     font-size: 3rem;
@@ -37,6 +46,44 @@ section.hero#hero {
     right: 0;
     width: 100%;
     padding-bottom: 1rem;
+  }
+
+  // .side-place-group {
+  //   position: absolute;
+  //   bottom: 0;
+  //   padding-right: 5rem;
+  //   padding-left: 5rem;
+  //   top: 0;
+  //   right: 5rem;
+  //   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./nusa-penida.png');
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   height: 100vh;
+
+  //   .side-place-group-container {
+  //     // padding-left: 5rem;
+  //     // padding-right: 5rem;
+  //   }
+  // }
+  .play-btn-group {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    transform: translate(-50%, -50%);
+
+    .play-btn,
+    .pause-btn {
+      border-radius: 100px;
+      background: rgba(59, 130, 246, 1);
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+    }
   }
 
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+// import OwlCarousel from "react-owl-carousel";
+// import "owl.carousel/dist/assets/owl.carousel.css";
+// import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const About = () => {
   return (
@@ -24,7 +24,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <OwlCarousel className="owl-theme" loop margin={10} nav>
+        {/* <OwlCarousel className="owl-theme" loop margin={10} center>
           <div className="item bg-primary">
             <h4>1</h4>
           </div>
@@ -61,7 +61,7 @@ const About = () => {
           <div className="item bg-primary">
             <h4>12</h4>
           </div>
-        </OwlCarousel>
+        </OwlCarousel> */}
       </div>
     </section>
   );
