@@ -1,6 +1,7 @@
 nav.navbar#my-navbar {
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+  background: rgba(107, 114, 128, 0.5);
   padding: 1rem 0;
 }
 nav.navbar#my-navbar li.nav-item a.nav-link {

@@ -1,0 +1,13 @@
+section#faq.faq {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+section#faq.faq p.faq-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #111827;
+}
+section#faq.faq p.faq-text {
+  line-height: 1.25rem;
+  color: #6B7280;
+}/*# sourceMappingURL=Faq.css.map */

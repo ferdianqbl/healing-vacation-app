@@ -31,7 +31,7 @@ const Hero = (e) => {
         id="hero-video"
         className="d-none"
         src="/assets/video/background.mp4"
-        autoplay
+        autoPlay
         loop
       ></video>
       <div className="container">
@@ -69,11 +69,7 @@ const Hero = (e) => {
           </div>
         </div> */}
 
-        <div
-          className="play-btn-group"
-          onClick={videoHandler}
-          playStatus={playStatus}
-        >
+        <div className="play-btn-group" onClick={videoHandler}>
           <button type="button" className="play-btn">
             <svg
               width="48"
@@ -86,16 +82,16 @@ const Hero = (e) => {
               <path
                 d="M42 24C42 33.9411 33.9411 42 24 42C14.0589 42 6 33.9411 6 24C6 14.0589 14.0589 6 24 6C33.9411 6 42 14.0589 42 24Z"
                 stroke="white"
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M31.8199 23.3444C32.3342 23.6301 32.3342 24.3699 31.8199 24.6556L20.6142 30.881C20.1143 31.1587 19.5 30.7972 19.5 30.2254V17.7746C19.5 17.2028 20.1143 16.8413 20.6142 17.119L31.8199 23.3444Z"
                 stroke="white"
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>
