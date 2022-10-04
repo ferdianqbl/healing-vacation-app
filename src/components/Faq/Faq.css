@@ -10,4 +10,23 @@ section#faq.faq p.faq-title {
 section#faq.faq p.faq-text {
   line-height: 1.25rem;
   color: #6B7280;
+}
+section#faq.faq #faq-accordion .accordion-button.collapsed::after {
+  background: url("./plus-circle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#faq.faq #faq-accordion .accordion-button:not(.collapsed)::after {
+  background: url("./minus-circle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#faq.faq #faq-accordion .accordion-item h2.accordion-header button {
+  color: #111827 !important;
+  font-size: 1.05rem !important;
+}
+section#faq.faq #faq-accordion .accordion-item .accordion-body {
+  color: #6B7280;
 }/*# sourceMappingURL=Faq.css.map */

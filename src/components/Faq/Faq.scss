@@ -12,4 +12,33 @@ section#faq.faq {
     line-height: 1.25rem;
     color: #6B7280;
   }
+
+  #faq-accordion {
+    .accordion-button.collapsed::after {
+      background: url("./plus-circle.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .accordion-button:not(.collapsed)::after {
+
+      background: url("./minus-circle.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .accordion-item {
+
+      h2.accordion-header button {
+        color: #111827 !important;
+        font-size: 1.05rem !important;
+      }
+
+      .accordion-body {
+        color: #6B7280;
+      }
+    }
+  }
 }
