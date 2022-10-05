@@ -1,7 +1,8 @@
-import About from "./components/About/About";
-import Faq from "./components/Faq/Faq";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
+import About from "./Parts/About/About";
+import Faq from "./Parts/Faq/Faq";
+import Hero from "./Parts/Hero/Hero";
+import Navbar from "./Parts/Navbar/Navbar";
+import Trending from "./Parts/Trending/Trending";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Faq />
+      <Trending />
     </>
   );
 }
