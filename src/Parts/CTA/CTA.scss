@@ -1,0 +1,69 @@
+section.cta#cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  background: url(./cta.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .top-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    background: linear-gradient(180deg, #111827 0%, rgba(17, 24, 39, 0) 100%);
+  }
+
+  .bot-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(243, 244, 246, 0) 0%, #F3F4F6 100%);
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #fff;
+      color: #000;
+      font-size: 1.5rem;
+      font-weight: 300;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  }
+}
+
+h1.cta-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
