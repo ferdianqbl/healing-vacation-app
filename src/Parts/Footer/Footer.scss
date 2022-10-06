@@ -1,0 +1,31 @@
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #F3F4F6;
+
+  ul.footer-nav {
+    list-style: none;
+
+    li.footer-item {
+      margin-bottom: 1.5rem;
+
+      a.footer-link {
+        color: #6B7280;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          color: rgba(59, 130, 246, 1);
+        }
+      }
+    }
+
+    li.footer-item:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  p.footer-copyright {
+    color: #6B7280;
+  }
+}

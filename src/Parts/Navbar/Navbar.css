@@ -6,6 +6,7 @@ nav.navbar#my-navbar {
 }
 nav.navbar#my-navbar li.nav-item a.nav-link {
   color: #FFF;
+  transition: all 0.3s ease-in-out;
 }
 nav.navbar#my-navbar li.nav-item a.nav-link:hover {
   color: rgb(59, 130, 246);
