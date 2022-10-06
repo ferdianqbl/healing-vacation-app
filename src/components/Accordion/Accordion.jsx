@@ -1,7 +1,6 @@
 import React from "react";
 
 const Accordion = ({ title, body, index }) => {
-  console.log(title, body, index);
   return (
     <div className="accordion-item">
       <h2 className="accordion-header" id={`flush-heading__${index}Accordion`}>

@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Alam",
+    "title": "Gunung Bromo, Jawa Timur",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
+  },
+  {
+    "category": "Alam",
+    "title": "Nusa Penida, Bali",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
+  },
+  {
+    "category": "Alam",
+    "title": "Borobudur, Jawa Tengah",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
+  },
+  {
+    "category": "Kota",
+    "title": "Pasar Gede, Surakarta",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
+  },
+  {
+    "category": "Kota",
+    "title": "Taman Sari, Yogyakarta",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
+  },
+  {
+    "category": "Kuliner",
+    "title": "Sate Kelinci, Karanganyar",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
+  }
+]

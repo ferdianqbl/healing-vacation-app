@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Trending.css";
+import trendingItems from "../../json/trending.json";
+import TrendingCard from "../../components/Accordion/TrendingCard/TrendingCard";
 
 const Trending = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const trendingItemFilterCategories = trendingItems.filter(
+    (item, index) =>
+      trendingItems.map((item) => item.category).indexOf(item.category) ===
+      index
+  );
+
+  const selectedCategoryHandler = (category) => {
+    setSelectedCategory(category);
+    // console.log(e.target.attributes[1].value);
+  };
+
   return (
     <section className="trending" id="trending">
       <div className="container">
@@ -13,86 +28,55 @@ const Trending = () => {
           </div>
           <div className="col-md-6">
             <nav>
-              <div
-                class="nav nav-pills justify-content-end"
-                id="nav-tab"
-                role="tablist"
-              >
+              <div className="nav nav-pills justify-content-end">
                 <button
-                  class="nav-link active"
-                  id="nav-home-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#nav-home"
+                  className={`nav-link${
+                    selectedCategory === "All" ? " active" : ""
+                  }`}
                   type="button"
-                  role="tab"
-                  aria-controls="nav-home"
-                  aria-selected="true"
+                  onClick={() => selectedCategoryHandler("All")}
                 >
-                  Home
+                  Semua
                 </button>
-                <button
-                  class="nav-link"
-                  id="nav-profile-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#nav-profile"
-                  type="button"
-                  role="tab"
-                  aria-controls="nav-profile"
-                  aria-selected="false"
-                >
-                  Profile
-                </button>
-                <button
-                  class="nav-link"
-                  id="nav-contact-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#nav-contact"
-                  type="button"
-                  role="tab"
-                  aria-controls="nav-contact"
-                  aria-selected="false"
-                >
-                  Contact
-                </button>
+                {trendingItemFilterCategories.map((item, index) => (
+                  <button
+                    key={new Date() + index}
+                    className={`nav-link${
+                      item.category === selectedCategory ? " active" : ""
+                    }`}
+                    type="button"
+                    onClick={() => selectedCategoryHandler(item.category)}
+                  >
+                    {item.category}
+                  </button>
+                ))}
               </div>
             </nav>
           </div>
         </div>
 
-        <div className="row">
-          <div class="tab-content" id="nav-tabContent">
-            <div
-              class="tab-pane fade show active"
-              id="nav-home"
-              role="tabpanel"
-              aria-labelledby="nav-home-tab"
-              tabindex="0"
-            >
-              Home
-            </div>
-            <div
-              class="tab-pane fade"
-              id="nav-profile"
-              role="tabpanel"
-              aria-labelledby="nav-profile-tab"
-              tabindex="0"
-            >
-              Profile
-            </div>
-            <div
-              class="tab-pane fade"
-              id="nav-contact"
-              role="tabpanel"
-              aria-labelledby="nav-contact-tab"
-              tabindex="0"
-            >
-              Contact
-            </div>
-          </div>
+        <div className="row row-cols-1 row-cols-md-3 g-3 align-items-center">
+          {trendingItems.map((item, index) =>
+            item.category === selectedCategory || selectedCategory === "All" ? (
+              <div className="col" key={new Date() + index}>
+                <TrendingCard {...item} />
+              </div>
+            ) : (
+              ""
+            )
+          )}
         </div>
       </div>
     </section>
   );
 };
+
+/* <div className="row align-items-center">
+  {trendingItems.map((item, index) => (
+    <div className="col-md-4" key={new Date() + index}>
+      <TrendingCard title={selectedCategory} />
+    </div>
+  ))}
+</div>; */
 
 export default Trending;
