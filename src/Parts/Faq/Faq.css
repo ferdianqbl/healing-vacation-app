@@ -24,9 +24,11 @@ section#faq.faq #faq-accordion .accordion-button:not(.collapsed)::after {
   background-size: cover;
 }
 section#faq.faq #faq-accordion .accordion-item h2.accordion-header button {
+  background: #F3F4F6;
   color: #111827 !important;
   font-size: 1.05rem !important;
 }
 section#faq.faq #faq-accordion .accordion-item .accordion-body {
+  background: #F3F4F6;
   color: #6B7280;
 }/*# sourceMappingURL=Faq.css.map */

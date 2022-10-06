@@ -14,6 +14,7 @@ section#faq.faq {
   }
 
   #faq-accordion {
+
     .accordion-button.collapsed::after {
       background: url("./plus-circle.svg");
       background-position: center;
@@ -30,13 +31,14 @@ section#faq.faq {
     }
 
     .accordion-item {
-
       h2.accordion-header button {
+        background: #F3F4F6;
         color: #111827 !important;
         font-size: 1.05rem !important;
       }
 
       .accordion-body {
+        background: #F3F4F6;
         color: #6B7280;
       }
     }
