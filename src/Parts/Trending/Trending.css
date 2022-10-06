@@ -7,4 +7,14 @@ section.trending#trending h1.trending-title {
   font-size: 1.875rem;
   line-height: 2.25rem;
   color: #111827;
+}
+section.trending#trending .trending-item-group {
+  margin-top: 3rem;
+}
+section.trending#trending #nav-btn-group button.nav-link {
+  color: #6B7280;
+}
+section.trending#trending #nav-btn-group button.nav-link.active {
+  background: rgb(191, 219, 254);
+  color: #3B82F6;
 }/*# sourceMappingURL=Trending.css.map */

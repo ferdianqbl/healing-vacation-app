@@ -1,0 +1,9 @@
+.trending-card#trending-card {
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 0px 50px rgba(0, 0, 0, 0.1);
+}
+.trending-card#trending-card img {
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=TrendingCard.css.map */

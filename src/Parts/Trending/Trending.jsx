@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Trending.css";
 import trendingItems from "../../json/trending.json";
-import TrendingCard from "../../components/Accordion/TrendingCard/TrendingCard";
+import TrendingCard from "../../components/TrendingCard/TrendingCard";
 
 const Trending = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -28,7 +28,10 @@ const Trending = () => {
           </div>
           <div className="col-md-6">
             <nav>
-              <div className="nav nav-pills justify-content-end">
+              <div
+                className="nav nav-pills justify-content-end"
+                id="nav-btn-group"
+              >
                 <button
                   className={`nav-link${
                     selectedCategory === "All" ? " active" : ""
@@ -55,7 +58,7 @@ const Trending = () => {
           </div>
         </div>
 
-        <div className="row row-cols-1 row-cols-md-3 g-3 align-items-center">
+        <div className="row row-cols-1 row-cols-md-3 g-4 align-items-center trending-item-group">
           {trendingItems.map((item, index) =>
             item.category === selectedCategory || selectedCategory === "All" ? (
               <div className="col" key={new Date() + index}>
@@ -70,13 +73,5 @@ const Trending = () => {
     </section>
   );
 };
-
-/* <div className="row align-items-center">
-  {trendingItems.map((item, index) => (
-    <div className="col-md-4" key={new Date() + index}>
-      <TrendingCard title={selectedCategory} />
-    </div>
-  ))}
-</div>; */
 
 export default Trending;

@@ -31,7 +31,6 @@ const Hero = (e) => {
         id="hero-video"
         className="d-none"
         src="/assets/video/background.mp4"
-        autoPlay
         loop
       ></video>
       <div className="container">

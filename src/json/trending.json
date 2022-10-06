@@ -1,31 +1,37 @@
 [
   {
     "category": "Alam",
+    "imgUrl": "/assets/images/trending/bromo.png",
     "title": "Gunung Bromo, Jawa Timur",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
   },
   {
     "category": "Alam",
+    "imgUrl": "/assets/images/trending/nusa-penida.png",
     "title": "Nusa Penida, Bali",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
   },
   {
     "category": "Alam",
+    "imgUrl": "/assets/images/trending/borobudur.png",
     "title": "Borobudur, Jawa Tengah",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
   },
   {
     "category": "Kota",
+    "imgUrl": "/assets/images/trending/pasar-gede.png",
     "title": "Pasar Gede, Surakarta",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
   },
   {
     "category": "Kota",
+    "imgUrl": "/assets/images/trending/taman-sari.png",
     "title": "Taman Sari, Yogyakarta",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
   },
   {
     "category": "Kuliner",
+    "imgUrl": "/assets/images/trending/sate-kelinci.png",
     "title": "Sate Kelinci, Karanganyar",
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum..."
   }

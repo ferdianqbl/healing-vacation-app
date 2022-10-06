@@ -8,4 +8,19 @@ section.trending#trending {
     line-height: 2.25rem;
     color: #111827;
   }
+
+  .trending-item-group {
+    margin-top: 3rem;
+  }
+
+  #nav-btn-group {
+    button.nav-link {
+      color: #6B7280;
+
+      &.active {
+        background: rgba(191, 219, 254, 1);
+        color: #3B82F6;
+      }
+    }
+  }
 }
