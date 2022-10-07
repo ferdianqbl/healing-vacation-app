@@ -1,0 +1,11 @@
+section.review#review {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #111827;
+}
+section.review#review h1.review-title {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=Review.css.map */
