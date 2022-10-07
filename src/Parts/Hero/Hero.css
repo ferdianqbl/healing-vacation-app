@@ -19,6 +19,26 @@ section.hero#hero::after {
   z-index: -1;
   background: linear-gradient(90deg, rgba(17, 24, 39, 0.8) 0%, rgba(17, 24, 39, 0.4) 56.25%, rgba(17, 24, 39, 0) 100%);
 }
+section.hero#hero .hero-social-group ul.nav.flex-column {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.hero#hero .hero-social-group ul.nav.flex-column li.nav-item {
+  transform: rotate(-90deg);
+}
+section.hero#hero .hero-social-group ul.nav.flex-column li.nav-item a.nav-link {
+  color: #E5E7EB;
+  transition: all 0.3s ease-in-out;
+}
+section.hero#hero .hero-social-group ul.nav.flex-column li.nav-item a.nav-link:hover {
+  color: rgb(59, 130, 246);
+}
+section.hero#hero .hero-social-group ul.nav.flex-column li.nav-item:not(:first-child) {
+  margin-top: 5rem;
+}
 section.hero#hero video#hero-video {
   position: absolute;
   width: calc(100% + 500px);

@@ -20,6 +20,37 @@ section.hero#hero {
     background: linear-gradient(90deg, rgba(17, 24, 39, 0.8) 0%, rgba(17, 24, 39, 0.4) 56.25%, rgba(17, 24, 39, 0) 100%);
   }
 
+  .hero-social-group {
+
+    ul.nav.flex-column {
+      // border: 1px solid red;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      li.nav-item {
+        transform: rotate(-90deg);
+
+
+        a.nav-link {
+          color: #E5E7EB;
+
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            color: rgba(59, 130, 246, 1);
+          }
+        }
+      }
+
+      li.nav-item:not(:first-child) {
+        margin-top: 5rem;
+      }
+    }
+  }
+
   video#hero-video {
     position: absolute;
     width: calc(100% + 500px);

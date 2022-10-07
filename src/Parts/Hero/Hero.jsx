@@ -35,6 +35,25 @@ const Hero = (e) => {
       ></video>
       <div className="container">
         <div className="row align-items-center">
+          <div className="col-md-1 hero-social-group">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="/">
+                  Facebook
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">
+                  Twitter
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
           <div className="col-md-6">
             <h1 className="hero-title">
               Temukan Tempat <br /> Wisata Impianmu
