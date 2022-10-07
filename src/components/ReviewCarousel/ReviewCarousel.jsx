@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import "./Carousel.css";
+import "./ReviewCarousel.css";
 
-const Carousel = ({ classData, data }) => {
+const ReviewCarousel = ({ classData, data }) => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -66,4 +66,4 @@ const Carousel = ({ classData, data }) => {
   );
 };
 
-export default Carousel;
+export default ReviewCarousel;

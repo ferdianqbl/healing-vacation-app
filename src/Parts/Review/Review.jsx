@@ -1,7 +1,7 @@
 import React from "react";
-import Carousel from "../../components/Carousel/Carousel";
 import "./Review.css";
 import reviewJson from "../../json/review.json";
+import ReviewCarousel from "../../components/ReviewCarousel/ReviewCarousel";
 
 const Review = () => {
   return (
@@ -16,7 +16,7 @@ const Review = () => {
         </div>
 
         <div className="row align-items-center mt-5">
-          <Carousel classData="carousel-card-review" data={reviewJson} />
+          <ReviewCarousel classData="carousel-card-review" data={reviewJson} />
         </div>
       </div>
     </section>
