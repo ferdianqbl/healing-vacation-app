@@ -36,19 +36,19 @@ const Hero = (e) => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-1 hero-social-group d-none d-lg-block">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+            <ul className="nav flex-column">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Facebook
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Twitter
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   Instagram
                 </a>
               </li>
