@@ -21,4 +21,8 @@
 }
 .card.carousel-card-review .card-profile-description .card-title {
   font-weight: normal;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
 }/*# sourceMappingURL=Carousel.css.map */

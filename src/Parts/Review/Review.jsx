@@ -15,7 +15,7 @@ const Review = () => {
           </div>
         </div>
 
-        <div className="row align-items-center">
+        <div className="row align-items-center mt-5">
           <Carousel classData="carousel-card-review" data={reviewJson} />
         </div>
       </div>
