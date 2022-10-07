@@ -1,0 +1,27 @@
+[
+  {
+    "imgSvg": "/assets/images/about/map.svg",
+    "title": "Bervariasi pilihan wisata",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum. Elementum hendrerit fames ac massa erat."
+  },
+  {
+    "imgSvg": "/assets/images/about/map-pin.svg",
+    "title": "Bermacam-macam pilihan tempat",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum. Elementum hendrerit fames ac massa erat."
+  },
+  {
+    "imgSvg": "/assets/images/about/adjustments-vertical.svg",
+    "title": "Menyesuaikan keinginan",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum. Elementum hendrerit fames ac massa erat."
+  },
+  {
+    "imgSvg": "/assets/images/about/banknotes.svg",
+    "title": "Menyesuaikan bujet",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum. Elementum hendrerit fames ac massa erat."
+  },
+  {
+    "imgSvg": "/assets/images/about/hand-thumb-up.svg",
+    "title": "Mudah diakses",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis ut varius adipiscing condimentum. Elementum hendrerit fames ac massa erat."
+  }
+]

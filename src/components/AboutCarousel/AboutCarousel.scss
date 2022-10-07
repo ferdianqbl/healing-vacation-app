@@ -1,0 +1,25 @@
+.card.carousel-card-about {
+  .card-body {
+    h5.card-title {
+      font-weight: 400;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      color: #111827;
+    }
+
+    p.card-text {
+      color: #6B7280;
+    }
+  }
+}
+
+.carousel-group {
+  z-index: 2;
+}
+
+button.slick-arrow.slick-prev,
+button.slick-arrow.slick-next {
+  &:before {
+    color: rgba(156, 163, 175, 1);
+  }
+}
