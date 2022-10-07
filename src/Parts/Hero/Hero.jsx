@@ -35,7 +35,7 @@ const Hero = (e) => {
       ></video>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-1 hero-social-group">
+          <div className="col-lg-1 hero-social-group d-none d-lg-block">
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link" href="/">
@@ -54,7 +54,7 @@ const Hero = (e) => {
               </li>
             </ul>
           </div>
-          <div className="col-md-6">
+          <div className="col-lg-6 col-md-8">
             <h1 className="hero-title">
               Temukan Tempat <br /> Wisata Impianmu
             </h1>
