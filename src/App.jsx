@@ -9,6 +9,7 @@ import Hero from "./Parts/Hero/Hero";
 import Navbar from "./Parts/Navbar/Navbar";
 import Review from "./Parts/Review/Review";
 import Trending from "./Parts/Trending/Trending";
+import Step from "./Parts/Step/Step";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Faq />
       <Trending />
+      <Step />
       <Review />
       <CTA />
       <Footer />

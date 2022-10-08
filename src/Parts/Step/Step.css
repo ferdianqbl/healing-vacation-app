@@ -1,0 +1,42 @@
+section.step#step {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  overflow-x: hidden;
+}
+section.step#step h1.step-title {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #111827;
+  margin-bottom: 2rem;
+}
+section.step#step .step-item {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+section.step#step .step-item .step-item-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-right: 2rem;
+  border-radius: 100%;
+  background: rgb(59, 130, 246);
+  color: #fff;
+  font-size: 2rem;
+}
+section.step#step .step-item .step-item-number span {
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+}
+section.step#step .step-item .step-item-text p.step-item-title {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #111827;
+}
+section.step#step .step-item .step-item-text p.step-item-body {
+  color: #6B7280;
+}/*# sourceMappingURL=Step.css.map */

@@ -1,0 +1,53 @@
+section.step#step {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  overflow-x: hidden;
+
+  h1.step-title {
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #111827;
+
+    margin-bottom: 2rem;
+  }
+
+  .step-item {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    .step-item-number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: .5rem;
+
+      span {
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+      }
+
+      margin-right: 2rem;
+      border-radius: 100%;
+      background: rgba(59, 130, 246, 1);
+      color: #fff;
+      font-size: 2rem;
+    }
+
+    .step-item-text {
+      p.step-item-title {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        color: #111827;
+      }
+
+      p.step-item-body {
+        color: #6B7280;
+      }
+    }
+  }
+}
