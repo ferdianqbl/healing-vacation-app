@@ -1,8 +1,8 @@
 section.step#step {
   padding-top: 5rem;
   padding-bottom: 5rem;
-
   overflow-x: hidden;
+  z-index: 2;
 
   h1.step-title {
     font-weight: 400;
@@ -12,6 +12,22 @@ section.step#step {
 
     margin-bottom: 2rem;
   }
+
+  // img.step-img-overlay {
+  //   position: absolute;
+  //   z-index: -1;
+  //   width: 100rem;
+  //   height: 80rem;
+  //   right: 0px;
+  //   top: 0px;
+  // }
+
+  // img.step-img-and-overlay {
+  //   position: relative;
+  // }
+  // .step-item-group {
+  //   padding-left: 6rem;
+  // }
 
   .step-item {
     overflow: hidden;

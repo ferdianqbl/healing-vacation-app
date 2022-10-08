@@ -2,6 +2,7 @@ section.step#step {
   padding-top: 5rem;
   padding-bottom: 5rem;
   overflow-x: hidden;
+  z-index: 2;
 }
 section.step#step h1.step-title {
   font-weight: 400;
