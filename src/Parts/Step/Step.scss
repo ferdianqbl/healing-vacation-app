@@ -16,9 +16,10 @@ section.step#step {
   .step-item {
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: start;
 
     .step-item-number {
+      cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -32,9 +33,16 @@ section.step#step {
 
       margin-right: 2rem;
       border-radius: 100%;
-      background: rgba(59, 130, 246, 1);
-      color: #fff;
+      background: rgba(191, 219, 254, 1);
+      color: rgba(59, 130, 246, 1);
       font-size: 2rem;
+
+      margin-bottom: 5rem;
+
+      &.active {
+        background: rgba(59, 130, 246, 1);
+        color: #fff;
+      }
     }
 
     .step-item-text {

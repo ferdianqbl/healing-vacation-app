@@ -13,23 +13,29 @@ section.step#step h1.step-title {
 section.step#step .step-item {
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 section.step#step .step-item .step-item-number {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
   margin-right: 2rem;
   border-radius: 100%;
-  background: rgb(59, 130, 246);
-  color: #fff;
+  background: rgb(191, 219, 254);
+  color: rgb(59, 130, 246);
   font-size: 2rem;
+  margin-bottom: 5rem;
 }
 section.step#step .step-item .step-item-number span {
   text-align: center;
   width: 3rem;
   height: 3rem;
+}
+section.step#step .step-item .step-item-number.active {
+  background: rgb(59, 130, 246);
+  color: #fff;
 }
 section.step#step .step-item .step-item-text p.step-item-title {
   font-weight: 400;
